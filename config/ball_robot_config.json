@@ -1,0 +1,45 @@
+{
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "rotation_angle": 0.0,
+    "roi": {
+      "x": 42,
+      "y": 113,
+      "width": 562,
+      "height": 302
+    }
+  },
+  "detection": {
+    "model_path": "D:/hiwin/HIWIN2/1700.pt",
+    "pocket_conf": 0.67,
+    "son_conf": 0.8,
+    "mom_conf": 0.7,
+    "ball_diameter_mm": 31.67,
+    "table_scale": {
+      "x": 69.4,
+      "y": 36.4
+    }
+  },
+  "socket": {
+    "host": "localhost",
+    "port": 8888,
+    "buffer_size": 1024
+  },
+  "robot": {
+    "home": [0.0, 296.5, 414.922, 180.0, -16.167, 90.0],
+    "recon": [0.0, 274.974, 481.085, -180.0, -20.681, 90.0],
+    "ball_offset": 45.0,
+    "ball_margin": 38.0,
+    "motor_override": 100,
+    "table_reference": [
+      {"x1": 0, "y1": 0, "x2": 0, "y2": 0},
+      {"x1": 0, "y1": 0, "x2": 0, "y2": 0},
+      {"x1": 0, "y1": 0, "x2": 0, "y2": 0},
+      {"x1": 0, "y1": 0, "x2": 0, "y2": 0},
+      {"x1": 0, "y1": 0, "x2": 0, "y2": 0},
+      {"x1": 0, "y1": 0, "x2": 0, "y2": 0}
+    ]
+  }
+}
